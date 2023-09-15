@@ -1,0 +1,15 @@
+namespace: iam
+
+resources:
+  - iam:account
+  - iam:role
+  - iam:policy
+  - iam:group
+  - iam:user
+
+statements:
+  - iam::mutation/deleteGroup::iam:group
+  - iam::mutation/deleteUser::iam:user
+  - iam::mutation/deletePolicy::iam:policy
+  - iam::mutation/deleteRole::iam:role
+  - iam::mutation/deleteAccount::iam:account

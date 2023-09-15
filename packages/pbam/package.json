@@ -1,0 +1,12 @@
+{
+  "name": "pbam",
+  "version": "1.0.0",
+  "description": "policy based access model",
+  "main": "index.js",
+  "author": "harlowk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  }
+}

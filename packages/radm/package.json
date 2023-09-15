@@ -1,0 +1,20 @@
+{
+  "name": "radm",
+  "version": "1.0.0",
+  "description": "resource and discoverability model",
+  "main": "index.js",
+  "author": "harlowk",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p . && yarn copy",
+    "start": "yarn build && node dist/index.js",
+    "copy": "cp -r src/*.yaml dist/"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "yaml": "^2.3.2"
+  }
+}

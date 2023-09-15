@@ -1,0 +1,11 @@
+{
+  "name": "grauth",
+  "version": "1.0.0",
+  "description": "global resource authorizations",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "cli",
+    "packages/*"
+  ]
+}
